@@ -15,7 +15,7 @@
 > 3. **實際建立問答筆記檔案（`notes/`）**：嚴格依據該 PDF 與資料夾現有資料，建立 `notes/YYYYMMDD_<品種>_beginner_pros_cons.md`（不混入未收錄的外部知識；缺漏項目僅於末段附參考連結）。
 > 4. **實際建立簡報大綱與 HTML 簡報檔案**：
 >    - 建立 `slides_outline/YYYYMMDD_<品種>_beginner_pros_cons_outline.md`。
->    - 依 `slides_html/STYLE_GUIDE.md`（「粉彩天藍 × 鼠尾草」溫暖水彩插畫風）生成對應寵物插畫存於 `slides_html/assets/`，並建立內嵌 Base64 圖片的離線單檔簡報 `slides_html/YYYYMMDD_<品種>_beginner_pros_cons_slides.html`。
+>    - 依 `docs/STYLE_GUIDE.md`（「粉彩天藍 × 鼠尾草」溫暖水彩插畫風）生成對應寵物插畫存於 `docs/assets/`，並建立內嵌 Base64 圖片的離線單檔簡報 `docs/YYYYMMDD_<品種>_beginner_pros_cons_slides.html`。
 > 5. **驗證並打包提供下載**：確認 JSON 無重複 `id`、數值皆符合 `min <= max`、無 `TBD` 佔位符後，**將整份 `寵物介紹/` 重新打包為 `寵物介紹.zip` 交給使用者下載**，並預覽新生成的簡報或 `.md` 檔案。
 
 ---
@@ -40,7 +40,7 @@
   - `content/fish/`：觀賞魚介紹文章（待擴充）
 - `notes/`：嚴格依據專案現有資料回答使用者問題或彙整所產出的 `.md` 問答筆記。
 - `slides_outline/`：依據 `notes/` 內容拆分產出的簡報逐頁大綱（Markdown）。
-- `slides_html/`：依據簡報大綱與風格規範（`slides_html/STYLE_GUIDE.md`）製作的離線 HTML 簡報檔案，插畫原圖備份於 `slides_html/assets/`。
+- `docs/`：依據簡報大綱與風格規範（`docs/STYLE_GUIDE.md`）製作的離線 HTML 簡報檔案，插畫原圖備份於 `docs/assets/`。
 - `pets_master.json` & `pets_master.csv`：位於專案根目錄的主要結構化資料集（CSV 須為 `utf-8-sig` 含 BOM 編碼，方便 Excel 直接開啟）。
 - `index.md`：知識庫總索引，記錄各物種收錄進度、檔案路徑與更新日誌。
 
@@ -82,11 +82,11 @@
 7. **適合族群與飼養前檢核表**
 8. **參考來源**
 
-## 問答筆記（`notes/`）與簡報（`slides_outline/`、`slides_html/`）規範
+## 問答筆記（`notes/`）與簡報（`slides_outline/`、`docs/`）規範
 
 1. **嚴格接地資料夾現有內容**：筆記正文與簡報內容必須**完全依照專案資料夾內現有資料**整理撰寫，不得混入未收錄於資料夾內的外部知識，並明確標註引用來源檔名。
 2. **資料缺口處理原則（只給連結、不寫入內容）**：若資料夾內沒有足夠資料回答部分子題，可於筆記末段列出「待補查之外部參考連結」，供使用者審閱後決定是否正式收錄至 `raw/`。
-3. **HTML 簡報視覺風格**：預設套用 `slides_html/STYLE_GUIDE.md` 的「粉彩天藍 × 鼠尾草」溫暖水彩插畫風，支援鍵盤與按鈕翻頁，並將圖片以 Base64 內嵌於單檔 HTML 中。
+3. **HTML 簡報視覺風格**：預設套用 `docs/STYLE_GUIDE.md` 的「粉彩天藍 × 鼠尾草」溫暖水彩插畫風，支援鍵盤與按鈕翻頁，並將圖片以 Base64 內嵌於單檔 HTML 中。
 
 ## 品質護欄與禁止事項
 

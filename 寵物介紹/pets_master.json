@@ -1,0 +1,97 @@
+[
+  {
+    "id": "dog_bichon_frise",
+    "species": "dog",
+    "breed_zh": "比熊犬",
+    "breed_en": "Bichon Frise",
+    "size_tier": "small",
+    "adult_weight_kg": {
+      "min": 5.0,
+      "max": 9.0
+    },
+    "lifespan_years": {
+      "min": 12,
+      "max": 15
+    },
+    "beginner_friendly": 4,
+    "exercise_need": "medium",
+    "grooming_need": "high",
+    "temperament_tags": [
+      "親人",
+      "愛撒嬌",
+      "高情商",
+      "黏人",
+      "對聲音敏感"
+    ],
+    "climate_suitability_tw": "適合台灣都會公寓與室內生活；因雙層捲毛與垂耳構造，台灣濕熱氣候須注意室內除濕與通風，洗澡後徹底吹乾以防皮膚炎與耳道發炎。",
+    "common_health_issues": [
+      "淚痕問題與遺傳性白內障（須每日清潔眼周並定期檢查）",
+      "膝關節異位 Patellar Luxation（避免頻繁跳上跳下、室內鋪設止滑墊）",
+      "皮膚敏感與耳道感染（須每日梳毛避免打結、維持耳道乾爽）",
+      "牙周問題與牙結石（口腔空間小，須每日刷牙）"
+    ],
+    "initial_cost_twd": {
+      "min": 40000,
+      "max": 80000,
+      "note": "僅為台灣合法優質犬舍犬隻參考價格；鼓勵以領養代替購買，籠舍與基礎用品費用依選購規格另計"
+    },
+    "monthly_cost_twd": {
+      "min": 1200,
+      "max": 2000,
+      "note": "僅列來源提及之每月專業美容費用區間；主食飼料、日常耗材與醫療保健支出另計"
+    },
+    "adoption_notes": "鼓勵以領養代替購買；若透過犬舍購買應選擇合法優質管道，並依台灣法規完成寵物登記與晶片植入。",
+    "sources": [
+      "奧沛OurPet 專欄《比熊犬好養嗎？2026比熊犬飼養全攻略：缺點、價格、智商與淚痕照護指南！》（2026-03-05，比熊.pdf）"
+    ],
+    "last_updated": "2026-11-15"
+  },
+  {
+    "id": "dog_siberian_husky",
+    "species": "dog",
+    "breed_zh": "哈士奇",
+    "breed_en": "Siberian Husky",
+    "size_tier": "medium",
+    "adult_weight_kg": {
+      "min": 16.0,
+      "max": 27.0
+    },
+    "lifespan_years": {
+      "min": 11,
+      "max": 15
+    },
+    "beginner_friendly": 2,
+    "exercise_need": "high",
+    "grooming_need": "medium",
+    "temperament_tags": [
+      "親人友善",
+      "社交性高",
+      "活力旺盛",
+      "有主見",
+      "怕孤單"
+    ],
+    "climate_suitability_tw": "極不耐熱，台灣濕熱氣候須提供室內冷氣或風扇降溫並保持通風；避開正午高溫，改於清晨或傍晚外出散步；公寓飼養務必每天提供 1–2 小時外出運動。",
+    "common_health_issues": [
+      "白內障與進行性視網膜萎縮 PRA（建議透過 DNA 基因檢測篩檢並留意視力變化）",
+      "角膜營養不良（若出現白色不透明斑塊惡化應轉診眼科）",
+      "髖關節發育不良（維持理想體重與適度運動）",
+      "甲狀腺功能低下（定期血液檢查可早期發現並以藥物控制）",
+      "脂漏性皮膚炎與外耳炎（維持通風乾燥、避免過度洗澡並於運動後清理耳道）"
+    ],
+    "initial_cost_twd": {
+      "min": 15000,
+      "max": 50000,
+      "note": "僅為台灣市場哈士奇幼犬參考價格；亦鼓勵至動物收容所認養，晶片、疫苗與基礎用品依選購規格另計"
+    },
+    "monthly_cost_twd": {
+      "min": 0,
+      "max": 0,
+      "note": "來源未明列每月固定新台幣金額；實際包含高品質高蛋白主食、關節與毛髮保健品、驅蟲預防與夏季降溫電費"
+    },
+    "adoption_notes": "鼓勵從動物收容所認養；若購買應確認已植入晶片、完成預防針並具備父母健康檢查紀錄與合法犬舍環境。",
+    "sources": [
+      "奧沛OurPet 專欄《哈士奇好養嗎？個性、智商、壽命、飼養要點必看指南！》（2025-10-23，raw/哈士奇.pdf）"
+    ],
+    "last_updated": "2026-11-15"
+  }
+]

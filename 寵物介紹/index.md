@@ -1,12 +1,12 @@
 # 寵物知識庫總索引（Pet Wiki Index）
 
-本索引依據 `AGENTS.md`（`agents.md`）規範維護，彙整本專案已建立的寵物介紹文章、問答筆記、簡報檔案、視覺風格規範與結構化資料集，方便檢視、擴充與下載使用。
+本索引依據 `AGENTS.md`（`AGENTS.md`）規範維護，彙整本專案已建立的寵物介紹文章、問答筆記、簡報檔案、視覺風格規範與結構化資料集，方便檢視、擴充與下載使用。
 
 ## 專案檔案與資料集總覽
 
 | 檔案／資料夾 | 類型 | 說明 |
 | :--- | :--- | :--- |
-| `agents.md` | 專案規範 | 定義目錄架構、單一 PDF 自動入庫流程、JSON/CSV 欄位標準與無程式碼 AI 協作規範 |
+| `AGENTS.md` | 專案規範 | 定義目錄架構、單一 PDF 自動入庫流程、JSON/CSV 欄位標準與無程式碼 AI 協作規範 |
 | `index.md` | 知識庫索引 | 本文件，記錄各物種收錄進度、檔案路徑與更新日誌 |
 | `pets_master.json` | 結構化資料集 | 所有已收錄寵物的標準化 JSON 資料 |
 | `pets_master.csv` | 表格資料集 | 由 `pets_master.json` 匯出之 `utf-8-sig` 編碼 CSV（可用 Excel 直接開啟） |
@@ -80,10 +80,10 @@
   - 同步更新 `pets_master.json`、`pets_master.csv` 與 `index.md`（收錄總數更新為 3 筆）。
   - 產出問答筆記 `notes/20261115_tuxedo_beginner_pros_cons.md`、簡報大綱 `slides_outline/20261115_tuxedo_beginner_pros_cons_outline.md`、封面水彩插畫 `slides_html/assets/tuxedo_cover.jpg` 與離線 HTML 簡報 `slides_html/20261115_tuxedo_beginner_pros_cons_slides.html`。
 - **2026-11-15（整理資料夾歸檔架構並補齊哈士奇筆記與簡報）**
-  - 移除程式碼腳本依賴，更新 `agents.md` 為純 AI 協作規範。
+  - 移除程式碼腳本依賴，更新 `AGENTS.md` 為純 AI 協作規範。
   - 將 `dog_bichon_frise.md` 與 `dog_siberian_husky.md` 統一歸檔至 `content/dogs/`，並標註後續所有品種介紹文章皆存於 `content/<species>/`。
   - 補齊哈士奇問答筆記 `notes/20261115_husky_beginner_pros_cons.md`、簡報大綱 `slides_outline/20261115_husky_beginner_pros_cons_outline.md` 與 HTML 簡報 `slides_html/20261115_husky_beginner_pros_cons_slides.html`。
 - **2026-11-15（新增哈士奇品種資料與介紹）**
   - 依據 `raw/哈士奇.pdf` 新增哈士奇介紹文章，並同步更新 `pets_master.json`、`pets_master.csv` 與 `index.md`。
 - **2026-11-15（初始化知識庫與比熊犬示範資料）**
-  - 建立 `agents.md`、`index.md`、`pets_master.json`、`pets_master.csv` 與比熊犬完整介紹、筆記與簡報。
+  - 建立 `AGENTS.md`、`index.md`、`pets_master.json`、`pets_master.csv` 與比熊犬完整介紹、筆記與簡報。

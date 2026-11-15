@@ -20,15 +20,15 @@
 ## 目前收錄統計
 
 - **已收錄物種總數**：4 筆
-- **犬類（`content/dogs/`）**：3 筆
+- **犬類（`content/dogs/`）**：2 筆
 - **貓類（`content/cats/`）**：1 筆
 - **小型哺乳類（`content/small_mammals/`）**：0 筆（待擴充）
 - **鳥類（`content/birds/`）**：0 筆（待擴充）
 - **爬蟲類（`content/reptiles/`）**：0 筆（待擴充）
 - **觀賞魚（`content/fish/`）**：0 筆（待擴充）
 - **問答筆記（`notes/`）**：4 份
-- **簡報大綱（`slides_outline/`）**：4 份
-- **HTML 簡報（`slides_html/`）**：4 份
+- **簡報大綱（`slides_outline/`）**：3 份
+- **HTML 簡報（`slides_html/`）**：3 份
 
 ## 物種分類目錄
 
@@ -38,7 +38,6 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `dog_bichon_frise` | 比熊犬 | Bichon Frise | 中小型（`small`） | 4 / 5 | `content/dogs/dog_bichon_frise.md` | 2026-11-15 |
 | `dog_siberian_husky` | 哈士奇 | Siberian Husky | 中型（`medium`） | 2 / 5 | `content/dogs/dog_siberian_husky.md` | 2026-11-15 |
-| `dog_poodle` | 貴賓犬 | Poodle | 多體型（`varies`） | 4 / 5 | `content/dogs/dog_poodle.md` | 2026-11-16 |
 
 ### 貓類（`content/cats/`）
 
@@ -54,9 +53,6 @@
 
 | 類型 | 檔案路徑 | 對應主題／來源 | 最後更新 |
 | :--- | :--- | :--- | :--- |
-| 問答筆記 | `notes/20261116_poodle_beginner_pros_cons.md` | 新手適不適合養貴賓犬與優缺點（依 `raw/貴賓犬.pdf`） | 2026-11-16 |
-| 簡報大綱 | `slides_outline/20261116_poodle_beginner_pros_cons_outline.md` | 新手貴賓犬飼養評估 8 頁大綱 | 2026-11-16 |
-| HTML 簡報 | `slides_html/20261116_poodle_beginner_pros_cons_slides.html` | 粉彩天藍 × 鼠尾草溫暖水彩風簡報（貴賓犬） | 2026-11-16 |
 | 問答筆記 | `notes/20261115_bichon_beginner_pros_cons.md` | 新手適不適合養比熊犬與優缺點（依 `raw/比熊.pdf`） | 2026-11-15 |
 | 簡報大綱 | `slides_outline/20261115_bichon_beginner_pros_cons_outline.md` | 新手比熊犬飼養評估 8 頁大綱 | 2026-11-15 |
 | HTML 簡報 | `slides_html/20261115_bichon_beginner_pros_cons_slides.html` | 粉彩天藍 × 鼠尾草溫暖水彩插畫風簡報（比熊犬） | 2026-11-15 |
@@ -69,11 +65,6 @@
 | 風格規範 | `slides_html/STYLE_GUIDE.md` | 粉彩天藍 × 鼠尾草溫暖水彩插畫風設計規範 | 2026-11-15 |
 
 ## 更新日誌（Changelog）
-
-- **2026-11-16（新增貴賓犬品種資料、問答筆記與 HTML 簡報）**
-  - 歸檔 `raw/貴賓犬.pdf`，新增 `content/dogs/dog_poodle.md`。
-  - 更新 `pets_master.json`、`pets_master.csv`、`index.md` 與 `index.html`，收錄總數更新為 4 筆。
-  - 新增貴賓犬問答筆記、8 頁簡報大綱、水彩插畫及離線 HTML 簡報。
 
 - **2026-11-15（新增賓士貓品種資料、問答筆記與 HTML 簡報）**
   - 歸檔 `raw/賓士貓.pdf`，並建立貓類介紹文章 `content/cats/cat_tuxedo.md`。

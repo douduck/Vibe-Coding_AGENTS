@@ -141,53 +141,5 @@
       "奧沛OurPet 專欄《2026賓士貓完整指南｜個性、壽命、品種花色、價格與飼養重點一次看懂》（2026-05-31，raw/賓士貓.pdf）"
     ],
     "last_updated": "2026-11-15"
-  },
-  {
-    "id": "dog_poodle",
-    "species": "dog",
-    "breed_zh": "貴賓犬",
-    "breed_en": "Poodle",
-    "size_tier": "varies",
-    "adult_weight_kg": {
-      "min": 3.0,
-      "max": 32.0
-    },
-    "lifespan_years": {
-      "min": 12,
-      "max": 15
-    },
-    "beginner_friendly": 4,
-    "exercise_need": "medium",
-    "grooming_need": "high",
-    "temperament_tags": [
-      "聰明",
-      "學習能力佳",
-      "親人黏人",
-      "警覺",
-      "可能吠叫",
-      "可能挑食"
-    ],
-    "climate_suitability_tw": "PDF 未提供貴賓犬對台灣氣候的專門適應性結論；居家飼養需依個體體型、活動及環境安排照護。",
-    "common_health_issues": [
-      "膝蓋骨異位 Patellar Luxation（來源指出玩具型需留意）",
-      "進行性視網膜萎縮 PRA（留意視力變化並依獸醫建議檢查）",
-      "外耳炎 Ear Infection（注意耳道清潔與乾爽）",
-      "皮脂腺炎 Sebaceous Adenitis（來源提及巨型貴賓較常見）"
-    ],
-    "initial_cost_twd": {
-      "min": 15000,
-      "max": 60000,
-      "note": "PDF 所列台灣市場參考價格約 15,000–60,000 元甚至更高；非即時報價，實際依體型、毛色及血統等因素而異。"
-    },
-    "monthly_cost_twd": {
-      "min": 0,
-      "max": 0,
-      "note": "來源未提供每月完整養育成本；0/0 代表未提供可量化資料，不代表飼養免費。美容、飼料、用品與醫療另計。"
-    },
-    "adoption_notes": "來源鼓勵透過收容所或動保團體領養；若選擇購買，應確認犬隻健康資訊及來源，避免只以極小體型或特殊毛色作為選擇條件。",
-    "sources": [
-      "奧沛 OurPet《貴賓狗好養嗎？一次看懂貴賓犬個性、缺點、壽命與價格【飼養全攻略】》（2026-01-15，raw/貴賓犬.pdf）"
-    ],
-    "last_updated": "2026-11-16"
   }
 ]

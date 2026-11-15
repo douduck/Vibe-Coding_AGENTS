@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寵物知識庫與互動導覽中心</title>
+  <style>
+    :root {
+      --bg: #F6F8F9;
+      --card: #FFFFFF;
+      --sky: #89AFC7;
+      --sky-soft: #E6F0F5;
+      --sage: #9CB7A0;
+      --sage-soft: #E7F0E8;
+      --warm: #E8D5C4;
+      --warm-soft: #F9F3EC;
+      --ink: #2F3B44;
+      --muted: #5F6E78;
+      --border: #DCE5EB;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background: linear-gradient(135deg, #EEF4F7 0%, #F4F7F3 100%);
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .container {
+      width: 100%;
+      max-width: 960px;
+      background: var(--card);
+      border: 3px solid var(--border);
+      border-radius: 28px;
+      padding: 40px;
+      box-shadow: 0 18px 48px rgba(47, 59, 68, 0.08);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    header h1 {
+      font-size: 32px;
+      color: var(--ink);
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 16px;
+      color: var(--muted);
+    }
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 28px 0 16px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .badge {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      background: var(--sky);
+    }
+    .badge.sage { background: var(--sage); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: var(--bg);
+      border: 2px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(137, 175, 199, 0.2);
+    }
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: var(--ink);
+    }
+    .card p {
+      font-size: 14.5px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--sky-soft);
+      color: #355D75;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      text-align: center;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    .btn:hover {
+      background: var(--sky);
+      color: #FFFFFF;
+    }
+    .btn.sage {
+      background: var(--sage-soft);
+      color: #3D5E42;
+    }
+    .btn.sage:hover {
+      background: var(--sage);
+      color: #FFFFFF;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 2px solid var(--border);
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>🐾 寵物知識庫與互動導覽中心</h1>
+      <p>彙整犬貓品種飼養指南、問答筆記與溫暖水彩風格互動簡報</p>
+    </header>
+
+    <!-- 貓類專區 -->
+    <div class="section-title"><span class="badge"></span> 貓類品種與簡報專區</div>
+    <div class="grid">
+      <div class="card">
+        <div>
+          <h3>賓士貓飼養全攻略</h3>
+          <p>完整收錄賓士貓命名由來、對稱花色辨識、性格特質、台灣飼養環境重點與預算評估。</p>
+        </div>
+        <a href="slides_html/20261115_tuxedo_beginner_pros_cons_slides.html" class="btn">開啟互動簡報 ➔</a>
+      </div>
+    </div>
+
+    <!-- 犬類專區 -->
+    <div class="section-title"><span class="badge sage"></span> 犬類品種與簡報專區</div>
+    <div class="grid">
+      <div class="card">
+        <div>
+          <h3>比熊犬飼養全攻略</h3>
+          <p>探討比熊犬新手友善度、雙層捲毛照護、淚痕管理、膝關節保護與專業美容重點。</p>
+        </div>
+        <a href="slides_html/20261115_bichon_beginner_pros_cons_slides.html" class="btn sage">開啟互動簡報 ➔</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <h3>哈士奇飼養全評估</h3>
+          <p>解析雪橇工作犬的極高運動需求、抗熱管理、正向強化訓練與常見好發健康問題。</p>
+        </div>
+        <a href="slides_html/20261115_husky_beginner_pros_cons_slides.html" class="btn sage">開啟互動簡報 ➔</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Pet Knowledge Base &copy; 2026 · 依據專案知識庫與 agents.md 規範維護</p>
+    </footer>
+  </div>
+
+</body>
+</html>
